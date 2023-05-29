@@ -1,3 +1,3 @@
-module github.com/nashrob/logger
+module github.com/nashrob2000/logger
 
 go 1.19
