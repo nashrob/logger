@@ -235,7 +235,7 @@ func Init(isLoggerInit bool, tmpSrcBaseDir string, logBaseDir string, logLevel s
 	}
 
 	var err error
-
+	fmt.Println("nashrob2000:logger")
 	if tmpSrcBaseDir = strings.TrimSpace(tmpSrcBaseDir); tmpSrcBaseDir == "" {
 		fmt.Printf("Error-1: %s\nSource code BaseDir: %s\n", err.Error(), tmpSrcBaseDir) // Error: abs path: %s\n", err.Error())
 		return false
